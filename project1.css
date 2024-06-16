@@ -1,0 +1,122 @@
+* {
+padding: 2px;
+font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #eee;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 35px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border:0;
+    outline: 0;
+    background: #ebfffe;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right:16px;
+    font-size: 18px;
+}
+.search  button{
+    border:0;
+    outline: 0;
+    background: #ebfffe;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.search button i{
+align-items: center;
+font-size: 30px;
+color: #605858;
+}
+/* .search button img{
+width: 16px;
+} */
+.weather img {
+    width: 151px;
+    margin-top: 20px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+
+
+}
+.weather h1{
+    font-size: 30px;
+    font-weight: 200;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    margin-top: -12px;
+    /* color: white; */
+    height: 58px;
+}
+.humidity, .wind{
+font-size: 28px;
+margin-top:-9px ;
+margin-bottom: -19px;
+}
+.weather{
+    display: none;
+
+}
+.col p{
+    padding: 0px;
+}
+.error{
+    margin-left: -294px;
+    color: white;
+    font-size: medium;
+    margin-top: -5px;
+    display: none;
+}
+.blank{
+    margin-left: -294px;
+    color: white;
+    font-size: medium;
+    margin-top: -5px;
+    display: none;
+}
+
+                                             /* new page */
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
